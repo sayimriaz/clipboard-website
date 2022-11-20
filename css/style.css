@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    color: hsl(210, 10%, 33%)
+}
+
+p {
+    font-size: 14px;
+    color: hsl(210deg 10% 63%);
+    line-height: 1.7;
+}
+
+div {
+    margin-bottom: 3%;
+}
+
+.main {
+    background-image: url(../img/bg-header-desktop.png); 
+    padding-bottom: 5%;
+}
+
+.main img{
+    height: 75px;
+    padding: 2% 0;
+}
+
+.main p {
+    padding: 0px 30% 0 30%;
+}
+
+.btn {
+    color: white;
+    border-radius: 20px;
+    padding: 0.5% 1%;
+    border: none;
+    font-size: 15px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0px 0.3%;
+}
+
+.ios {
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: 2px solid hsl(171deg 36% 36%);
+
+}
+
+.mac {
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 2px solid hsl(233deg 69% 57%)
+}
+
+.section-2 p{
+    padding: 0px 30% 2% 30%;
+}
+
+.section-3{
+    display: inline-flex;
+    width: 100%;
+}
+
+.section-3-img img{
+    width: 100%;
+}
+
+.section-3-text{
+    width: 50%;
+    padding: 4% 0px 0px 8%;
+    text-align: left;
+}
+
+.section-3-text p{
+    padding-right: 50%;
+}
+
+.section-4 p{
+    padding: 0% 30% 3%;
+}
+
+.snippets-section{
+    display: inline-flex;
+    margin: 2% 8%;
+}
+
+.inner-section{
+    width: 33%;
+    margin: 0;
+}
+
+.inner-section img {
+    margin-bottom: 4%;
+    height: 35px;
+}
+
+.inner-section p{
+    padding: 0px 10%;
+}
+
+.section-5 {
+    margin-bottom: 5%;
+}
+
+.section-5 p{
+    padding-bottom: 2%;
+}
+
+.logos{
+    margin-bottom: 7%;
+}
+.logos img{
+    height: 30px;
+    padding: 0 4%;
+}
+
+.bottom-section{
+    margin: 5%;
+}
+.bottom-section p{
+    padding: 0% 30%;
+}
+
+#footer {
+    display: inline-flex;
+    width: 100%;
+    background: hsl(0deg 0% 89%);
+    justify-content: center;
+    margin: 0;
+}
+
+.logo-img{
+    height: 40px;
+    margin-top: 15%;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: hsl(210, 10%, 33%);
+}
+
+.links{
+    width: 40%;
+    text-align: left;
+}
+.icons{
+    width: 40%;
+}
+.footerlogo{
+    width: 35%;
+}
+.icons img{
+    height: 20px !important;
+    padding: 15% 2% 0 0%;
+}
+
+.links-1{
+    display: inline-flex;
+    width: 100%;
+}
+.links-2{
+    width: 100%;
+    display: inline-flex;
+
+}
+.footer-links{
+    display: block;
+    text-align: left;
+    width: 35%;
+    margin-top: 4%;
+}
+
+li {
+    list-style: none;
+}
+
+.links-1 li a{
+    padding: 40px;
+}
+
+.links-2 li a{
+    padding-left: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        width: 100vw;
+    }
+    .section-3{
+        display: block;
+    }
+    .section-3-text{
+        width: 100vw;
+        text-align: center;
+        padding: 0;
+    }
+    .section-3-text p{
+     padding: 0 25%;
+    }
+    .section-3-img img {
+        width: 40%;
+    }
+    .section-4 img {
+        width: 40%;
+    }
+    .snippets-section {
+        display: block;
+    }
+    .inner-section{
+        width: 100%;
+    }
+    .inner-section p{
+        padding: 0 20%;
+    }
+    .logos{
+        display: block;
+    }
+    .bottom-section p{
+        padding: 0 20%;
+    }
+    .links-1 li a{
+        padding: 20px;
+    }
+    .links-2 li a{
+        padding-left: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .logos img {
+        height: 25px;
+    }
+    .links-1 li a{
+        padding: 8px;
+    }
+    .links-2 li a{
+        padding-left: 8px;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .logos{
+        text-align: left;
+    }
+    .logos img {
+        height: 25px;
+        padding: 2% 38%;
+    }
+    .main img{
+        height: 50px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .main p{
+        padding: 0px 15% 0 15%;
+    }
+    .main{
+        padding-bottom: 10%;
+    }
+    div {
+        margin-bottom: 10%;
+    }
+    .btn {
+        padding: 0.5% 4%;
+    }
+    .section-2 p {
+        padding: 0px 15% 0% 15%;
+    }
+    .section-3-img img {
+        width: 60%;
+    }
+    .section-3-text p {
+        padding: 0px 17%;
+    }
+    .section-4 p {
+        padding: 0% 17% 3%;
+    }
+    .section-4 img {
+    width: 60%;
+    }
+    .inner-section p {
+        padding: 0px 17%;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .bottom-section p {
+        padding: 0px 17%;
+    }
+    #footer{
+        display: block;
+    }
+    .footerlogo{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .footer-links{
+        width: 50%;
+        margin-left: 40%;
+    }
+    .icons{
+        width: 100%;
+        margin: 0;
+    }
+    .links-1 {
+        display: inline-block;
+        margin: 0;
+    }
+    .links-2 {
+        display: inline-block;
+
+    }
+    .icons img{
+        padding: 0;
+    }
+  }
